@@ -1,4 +1,51 @@
 body {
-  background-color: powderblue;
-  font-family: verdana;
+  background-color: black;
+  font-family: 'Lato', "Helvetica", sans-serif;
+  color: white;
+}
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background-color:#333;
+  text-align: right;
+  color: white;
+  text-transform: uppercase;
+  font-size: 20pt;
+}
+
+.main {
+  padding-top: 100px;
+}
+
+.navbarul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbarli {
+  float: right;
+  display: block;
+  padding: 8px;
+  border-left: 1px solid gray;
+}
+
+.navbarli:hover {
+  background-color: #111;
+}
+
+.activenavbarli {
+  float: right;
+  display: block;
+  padding: 8px;
+  border-left: 1px solid gray;
+  background-color: #660066;
+}
+
+.plainlink {
+  text-decoration: none;
+  color:inherit;
 }
