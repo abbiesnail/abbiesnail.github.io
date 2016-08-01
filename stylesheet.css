@@ -13,7 +13,12 @@ body {
   text-align: right;
   color: white;
   text-transform: uppercase;
-  font-size: 20pt;
+  font-size: 15pt;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+nav img {
+  height: 30px;
 }
 
 .main {
@@ -30,7 +35,9 @@ body {
   float: right;
   display: block;
   padding: 8px;
+  padding-top: 12px;
   border-left: 1px solid gray;
+  height: 30px;
 }
 
 .navbarli:hover {
@@ -41,8 +48,10 @@ body {
   float: right;
   display: block;
   padding: 8px;
+  padding-top: 12px;
   border-left: 1px solid gray;
   background-color: #660066;
+  height: 30px;
 }
 
 .plainlink {
